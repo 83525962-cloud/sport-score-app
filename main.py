@@ -79,7 +79,7 @@ col1, col2, col3 = st.columns(3)
 with col1:与col1:
     gender = st.radio("性别", ["男", "女"], horizontal=True)性别 = st.radio("性别", ["男", "女"], horizontal=True)
 with col2:与col2:
-    h = st.number_input("身高(cm)", 120.0, 220.0, 170.0)h = st.number_input(“身高(cm)”, 120.0, 220.0, 170.0)
+ h = st.number_input("身高(cm)", 120.0, 220.0, 170.0)h = st.number_input("身高(cm)", 120.0, 220.0, 170.0)
 with col3:与col3:与col3:
     w = st.number_input("体重(kg)", 30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”, 30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”, 30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”,30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”, 30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”,30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”,30.0, 150.0, 60.0)w = st.number_input(“体重(kg)”,30.0, 150.0, 60.0)
 
